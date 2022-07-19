@@ -2,21 +2,20 @@
   text-align: center;
 }
 
-.card-list {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin:1rem;
+
+.navbar__container {
+  flex-direction: column;
+  background-color: black;
+  padding-bottom: 3rem;
+  width: 100%;
+  
 }
 
-.card {
-  margin:1rem;
-}
 
 .logo__marvelous{
-  width: 30%;
+  width: 40%;
+  margin: 1rem;
   @media screen and (max-width: 768px){
-    width: 100%;
+    width: 90%;
   }
 }
