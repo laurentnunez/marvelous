@@ -1,9 +1,12 @@
 import './App.scss';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Characters from './Characters';
-//import Character from '../src/Characters/Character';
+import Character from '../src/Characters/Character';
 import Search from './Search';
+import Home from './Home';
+import logo from '../src/assets/logo.png';
 
 //https://gateway.marvel.com:443/v1/public/characters?apikey=1ffdef23335e8a0d66472e6377bfefdd
 
@@ -37,24 +40,24 @@ useEffect(()=> {
 fetch()
 },[query])
 
-
-
   return (
     <div className="App">
-      <nav className="navbar">
-        <div className="navbar__container">
-          <img className="logo__marvelous" alt="logo-marvelous" src="../../logo-marvelous.png"/>
-          <Search search={(q)=>setQuery(q)}/>
+      <div className="header">
+          <div className="header__container">
+          <img src={logo} className="header-logo" alt="logo"/> 
+            <Search search={(q)=>setQuery(q)}/>
+          </div>    
         </div>
-      </nav>    
-
-    <div className='container'>
-      <Characters characters={characters} />
+      <div className="main">
+        <Characters 
+          characters={characters} 
+        />
+        <Routes>
+          <Route path="/" element={<Characters />} /> 
+          <Route path="/character/:name" element={<Character />} />
+        </Routes>
+      </div>
     </div>
-
-
-</div>
-
   );
 
 }

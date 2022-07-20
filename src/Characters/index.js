@@ -5,13 +5,12 @@ function Characters({characters}) {
   return (
     <div className='card-list'>
       {characters.map(character=>(
-        <div className='card-data'>
-        <img src={`${character.thumbnail.path}.${character.thumbnail.extension}`}  alt={character.name} className='card_image'></img>
+        <div className='thecard'>
         <Character
         key={character.id}
         id={character.id}
         name={character.name}
-        
+        thumbnail={character.thumbnail}
       />
       </div>
       ))}
