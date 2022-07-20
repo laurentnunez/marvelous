@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/marvelous/static/css/main.d2efe172.css",
+    "main.js": "/marvelous/static/js/main.093a60ca.js",
+    "index.html": "/marvelous/index.html",
+    "main.d2efe172.css.map": "/marvelous/static/css/main.d2efe172.css.map",
+    "main.093a60ca.js.map": "/marvelous/static/js/main.093a60ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2efe172.css",
+    "static/js/main.093a60ca.js"
+  ]
+}
