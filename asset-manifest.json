@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/marvelous/static/css/main.d2efe172.css",
-    "main.js": "/marvelous/static/js/main.093a60ca.js",
+    "main.css": "/marvelous/static/css/main.f5449b49.css",
+    "main.js": "/marvelous/static/js/main.2d3c0222.js",
+    "static/media/comicbooks.jpg": "/marvelous/static/media/comicbooks.363296f4fcc2e26ff7e0.jpg",
+    "static/media/logo.png": "/marvelous/static/media/logo.afc0e0cf808a24f1200b.png",
     "index.html": "/marvelous/index.html",
-    "main.d2efe172.css.map": "/marvelous/static/css/main.d2efe172.css.map",
-    "main.093a60ca.js.map": "/marvelous/static/js/main.093a60ca.js.map"
+    "main.f5449b49.css.map": "/marvelous/static/css/main.f5449b49.css.map",
+    "main.2d3c0222.js.map": "/marvelous/static/js/main.2d3c0222.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2efe172.css",
-    "static/js/main.093a60ca.js"
+    "static/css/main.f5449b49.css",
+    "static/js/main.2d3c0222.js"
   ]
 }
